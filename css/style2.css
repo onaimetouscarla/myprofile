@@ -1,0 +1,311 @@
+body {
+  background-color: #FFFF;
+}
+
+/* Mise en page */
+
+
+#entete {
+  width: 1000px;
+  background-image: url("../pictures/kedge.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 248px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+nav {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  padding-top: 10px;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+#menu {
+  width: 300px;
+  height: auto;
+  float: left;
+  position: relative;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+article {
+  width: 591px;
+  float: left;
+  height: auto;
+}
+
+footer {
+  background-color: black;
+  position: relative;
+  bottom: 0;
+  width: 1000px;
+  height: auto;
+  margin-top: -50px;
+  clear: both;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+li:not(.note, .prog, .nb, .list, .mail, .lien) {
+  padding-left: 2px;
+  list-style-type: none;
+}
+
+/*Affichage menu*/
+
+#menu-deroulant {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: left;
+  width: 180px;
+  background-color: black;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+#menu-deroulant ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: left;
+  border: 5px;
+}
+
+#menu-deroulant li li {
+  max-height: 0;
+  overflow: hidden;
+  padding-right: 30px;
+}
+
+#menu-deroulant a {
+  display: block;
+  padding: 3px;
+  font-family: 'Trebuchet MS';
+  font-size: 15px;
+  border-radius: 3px;
+}
+
+#menu-deroulant li:hover li {
+  max-height: 5em;
+  color: #f0efeb;
+  padding-left: 15px;
+  padding-bottom: 3px;
+}
+
+#menu-deroulant li:hover h4 {
+  color: #f0efeb;
+  text-decoration: underline;
+  border-bottom: 4px gold;
+}
+
+/* formatage des textes*/
+nav a {
+  font-family: 'Trebucjet MS';
+  color: #FFFFFF;
+  font-size: 15px;
+  text-decoration: none;
+  margin-right: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+li a {
+  font-size: 16px;
+  font-style: initial;
+  margin-left: 1px;
+  color: #E4E0D1;
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 15px;
+  color: #FFFFFF;
+  font-family: 'Trebucjet MS';
+  background-color: black;
+  padding: 10px;
+}
+
+footer a {
+
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Trebucjet MS';
+
+  padding-left: 100px;
+  padding-right: 20px;
+}
+
+article h2 {
+  font-family: 'Trebucjet MS';
+  text-align: center;
+  font-size: 29px;
+  color: #7f5539;
+  font-variant: inherit;
+  font-style: italic;
+  font-weight: bold;
+}
+
+article h3 {
+  font-family: 'Trebucjet MS';
+  font-size: 23px;
+  color: #A45F01;
+  text-align: center;
+  text-shadow: #A44E00 2px 6px 8px;
+}
+
+article li {
+  font-family: 'Trebucjet MS';
+  font-size: 17px;
+}
+
+article dd {
+  font-family: 'Trebucjet MS';
+  font-size: 17px;
+}
+
+article p {
+  font-family: 'Trebucjet MS';
+  font-size: 17px;
+}
+
+article dt {
+  font-family: 'Trebucjet MS';
+  font-size: 18px;
+  color: rgb(253, 68, 1);
+}
+
+p a :not(.reseauxTextImage) {
+  text-decoration: underline;
+  font-weight: black;
+  color: #b08968;
+
+}
+
+h4:not(.firstLetter) {
+  font-weight: black;
+  font-family: 'Trebuchet MS';
+  font-variant: small-caps;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin: 0px;
+  padding-top: 49px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+}
+
+footer a {
+  color: #FFFFFF;
+  font-family: 'Trebucjet MS';
+}
+
+.firstLetter {
+  font-weight: bold;
+  font-family: 'Trebucjet MS';
+  font-variant: small-caps;
+  font-size: 18px;
+  color: black;
+  padding-left: 10px;
+  display: inline;
+  text-decoration: none;
+  margin: 0px;
+}
+
+.nb {
+  list-style-type: decimal;
+}
+
+.note {
+  color: black;
+  text-decoration: underline;
+}
+
+.text {
+  list-style-image: url('../pictures/puce.png');
+  text-align: justify;
+}
+
+.crous {
+  width: 150px;
+  height: 150px;
+  float: right;
+  margin-left: 30px;
+}
+
+.en {
+  color: black;
+  list-style-type: circle;
+}
+
+.titre {
+  text-align: center;
+}
+
+.campusImage {
+  padding-top: 30px;
+  height: 250px;
+  border-radius: 10px;
+  padding-bottom: 50px;
+}
+
+#campusTextDiv {
+  width: 450;
+}
+
+.messagerieImage {
+  height: 100px;
+  float: left;
+  padding-right: 25px;
+  padding-top: 20px;
+}
+
+#messagerieTitle {
+  padding-top: 50px;
+}
+
+.moodle {
+  height: 150px;
+  padding-top: 65px;
+}
+
+.reseauxImage {
+  height: 40px;
+  float: left;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.reseauxTextImage {
+  padding-top: 50px;
+}
+
+#youtube {
+  width: 40px;
+}
+
+.mail {
+  color: black;
+  text-decoration: underline;
+}
+
+.lien {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p {
+  text-align: justify;
+}
